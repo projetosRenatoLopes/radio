@@ -1,0 +1,73 @@
+body {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #ffffff;
+}
+
+#top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #FFFFFF;
+    background-color: #202020;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#t1 {
+    font-size: 50px;
+    font-family: 'Metal Mania', cursive;
+}
+
+#top h1 {
+    background: -webkit-linear-gradient(#f81717, rgb(145, 145, 145));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 5px 0 5px 0;
+}
+
+.gifs {
+    justify-content: space-between;
+}
+
+#music {
+    width: 30%;
+}
+
+#img-f {
+    width: 30%;
+}
+
+.player {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #202020;
+}
+
+audio {
+    width: 100%;
+}
+.gifsbottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #FFFFFF;
+    background-color: #202020;        
+    text-align: center;
+}
+.gifsbottom img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+ 
+@media 500 {
+    
+}
