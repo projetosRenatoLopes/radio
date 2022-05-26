@@ -23,17 +23,27 @@
             </div>
         </div>
         </div>
-    </section>    
+    </section>
 
-    <div class="player">
-        <audio id='audio' controls autoplay>
-            <source src="http://c13.radioboss.fm:8347/autodj" type="audio/ogg">
+    <!-- <div class="player">
+        <audio id='audio' controls autoplay playsinline>
+            <source src="http://radioxibungos.ddns.net:82/" type="audio/ogg">
             Your browser does not support the audio element.
         </audio>
+    </div> -->
+    <br>
+    <div class="player">
+        <video  id="player" autoplay="false" preload="auto" controls="true" src="http://radioxibungos.ddns.net:82/" type="video/quicktime"></video>
     </div>
-
+    <br>
+    <div  class="btplayer">
+            <button class="btn btn-g btn-l" onclick="document.getElementById('player').play()">Play</button>
+            <button class="btn btn-g btn-l" onclick="document.getElementById('player').pause()">Pause</button>
+            <button class="btn btn-g btn-l" onclick="document.getElementById('player').volume+=0.1">Volume +</button>
+            <button class="btn btn-g btn-l" onclick="document.getElementById('player').volume-=0.1">Volume -</button>
+    </div>
     <div class="gifsbottom">
-        <img src="https://cdn.dicionariopopular.com/imagens/numero-nove.gif?auto_optimize=low" />
+    <img src="https://cdn.dicionariopopular.com/imagens/numero-nove.gif?auto_optimize=low" />
     </div>
     <div class="gifsbottom">
         <img src="https://cdn.dicionariopopular.com/imagens/meme-feliz.gif?auto_optimize=low" />
@@ -42,7 +52,8 @@
         <img src='https://cdn.dicionariopopular.com/imagens/homem-dancando.gif?auto_optimize=low' />
     </div>
 
-    <a class="twitter-timeline" href="https://twitter.com/conceito_sert?ref_src=twsrc%5Etfw">Tweets by conceito_sert</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <a class="twitter-timeline" href="https://twitter.com/conceito_sert?ref_src=twsrc%5Etfw">Tweets by conceito_sert</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </body>
 
